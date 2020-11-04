@@ -12,13 +12,12 @@ body {
 }
 
 .container {
-    width: 700px;
+    width: 600px;
     margin: 0 auto;
     
 }
 
 .header {
-    width: 600px;
     box-shadow: 0 0 30px #c6c6c6;
     background-color:#fbfcfa;
     border-radius: 5px;
@@ -27,7 +26,6 @@ body {
 }
 
 .social_links {
-    width: 600px;
     box-shadow: 0 0 30px #c6c6c6;
     background-color:#fbfcfa;
     border-radius: 5px;
