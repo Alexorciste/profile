@@ -1,0 +1,131 @@
+
+
+body {
+    margin:0;
+    padding:0;
+    background-color:#eef0ea;
+    color: #575F7D;
+    font-family: 'Open sans', 'Roboto';
+    font-size: 17px;
+    line-height : 1.6;
+    font-weight: lighter;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    
+}
+
+.header {
+    width: 600px;
+    box-shadow: 0 0 30px #c6c6c6;
+    background-color:#fbfcfa;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.social_links {
+    width: 600px;
+    box-shadow: 0 0 30px #c6c6c6;
+    background-color:#fbfcfa;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.btn-blue{
+    width: 100px;
+    background-color:#51adcf;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+
+
+.image-circle{
+    border-radius: 50%;
+    height: 100px;
+}
+
+.text-center {
+    text-align: center;
+  }
+
+.header a {
+    text-decoration: none;
+    color: #dceff7;
+    font-size: 14px;
+    opacity: 0.8;
+    }
+
+.header a:hover{
+    color: #dceff7;
+    opacity: 1;
+}
+
+
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 26px;
+    color: #716b7f;
+}
+
+h2{
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+li {
+    margin: 20px;
+    opacity:0.8;
+}
+
+
+i {
+    font-size: 25px;
+    opacity: 0.8;
+}
+
+ul i:hover {
+    opacity: 1;
+}
+
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
